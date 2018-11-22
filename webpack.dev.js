@@ -14,6 +14,7 @@ const devConfig = {
         NODE_ENV: '"development"',
       },
     }),
+    new CleanTerminalPlugin()
   ],
 };
 
